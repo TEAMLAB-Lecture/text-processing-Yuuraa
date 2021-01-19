@@ -93,6 +93,4 @@ class TestTextProcessing(unittest.TestCase):
         self.assertEqual(pred, "bcdfghjklmnpqrstvwxyz")
 
 if __name__ == '__main__':
-    test = TestTextProcessing()
-    test.test_normalize()
-    test.test_no_vowels()
+    unittest.main()
